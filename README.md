@@ -1,26 +1,59 @@
-## 📆 일정 공유 서비스, `GongDal2`
+## 📆 일정 공유 서비스
+<img src='https://github.com/kkkkYoungJae/GongDal2/assets/75121415/e2e121d1-cadd-4f0a-a5fb-f6da04109ea1' />
+
+<p align='center'><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FkkkkYoungJae%2FGongDal2&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a></p>
+
+<p align='center'>
+<a href=' '>앱스토어</a> | 
+<a href=''>플레이 스토어</a>
+</p> 
 
 > 커플, 동아리, 학교 등 그룹활동이 늘어나고 있는 현대인들을 위한 개인일정 뿐 아니라 그룹 일정까지 손쉽게 관리할 수 있는 신개념 일정 서비스 앱입니다.
 
 🙈 그룹장은 그룹의 일정을 관리할 수 있어요! <br/>
-🙉 한 캘린더에서 내 일정과 그룹 일정을 모두 확인 & 관리할 수 있어요!
+🙉 한 캘린더에서 내 일정과 그룹 일정을 모두 확인 & 관리할 수 있어요! <br/>
 
 
-📆 개발 기간: 2024.05. ~ 2024.6. 약 4주 진행
+
+📆 개발 기간: 2024.05. ~ 2024.6. 약 4주 진행 <br/>
+📆 개발 사유: 소그룹, 동아리, 회사, 학교 등 그룹모임이 많아지는 시대에 맞춰 개인일정까지 한 캘린더에 모아볼수잇으면 좋겟다는 생각에 시작했다.
 
 <br/>
 
 ## 👩‍💻🧑‍💻 Team Members
 
-| 권예지 | 김영재 |
-|:-:|:-:|
-| <img src="https://avatars.githubusercontent.com/u/77970912?v=4" width=150px/> | <img src="https://avatars.githubusercontent.com/u/85497694?v=4" width=150px/>|
-| [@kwonyeji500](https://github.com/kwonyeji500) | [@kkkkYoungJae](https://github.com/kkkkYoungJae)|
-| Back-end | Front-end |
+|                                   FrontEnd                                   |                                   BackEnd                                    |
+|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+| <img src="https://avatars.githubusercontent.com/u/75121415?v=4" width="200"> | <img src="https://avatars.githubusercontent.com/u/77970912?v=4" width="200"> |
+|                    [김영재](https://github.com/kkkkYoungJae)                    |                    [권예지](https://github.com/kwonyeji500)                     |
 
 <br/>
 
-## 💫 Demo
+## 💫 기능 설명
+
+**📌 내가 속한 그룹과 개인일정을 달력 형태로 볼 수 있습니다**
+
+<p align='center'>
+<img width="400" alt="달력 캡처 화면" src="https://github.com/kkkkYoungJae/GongDal2/assets/75121415/9e47b038-7b87-455f-bbd3-53964395695f">
+</p>
+
+**🗓️ 일별 일정들도 리스트로 확인할 수 있습니다**
+
+<p align='center'>
+<img width="400" alt="일정 모달 캡쳐 화면" src="https://github.com/kkkkYoungJae/GongDal2/assets/75121415/d9fca962-f2aa-45e9-9715-4d3199147b58">
+</p>
+
+**👥 내가 속한 그룹의 모임을 리스트로 확인할 수 있습니다**
+
+<p align='center'>
+<img width="400" alt="그룹 리스트 캡처 화면" src="https://github.com/kkkkYoungJae/GongDal2/assets/75121415/79bfe6e5-6ae5-4dce-b5e8-92068c73c9f8">
+</p>
+
+**🔍 특정 그룹만 필터링하여 일정을 확인할 수 있습니다.**
+
+<p align='center'>
+<img width="400" alt="그룹 상세 캡처 화면" src="https://github.com/kkkkYoungJae/GongDal2/assets/75121415/66c82cdd-d35b-490c-bbac-13870c7f21b8">
+</p>  
 
 <br/>
 
@@ -61,7 +94,7 @@
 
 <div align=center><h1>🛠 Architecture</h1></div>
 <div align=center> 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/77970912/340224965-f92ac000-e6e8-4069-93db-6081d08196f9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240617T075750Z&X-Amz-Expires=300&X-Amz-Signature=bccc164ea752ff23eb93cdf8d5865b9f091224e8d0dd609b6ad267ad282afb77&X-Amz-SignedHeaders=host&actor_id=77970912&key_id=0&repo_id=802364606">
+<img src="https://github.com/kwonyeji500/gongdal-public/assets/77970912/077ae3d6-c3ab-425b-920e-55edaa88c0a0">
 <br>
 </div>
 
@@ -69,6 +102,6 @@
 
 <div align=center><h1> 🛠 ERD</h1></div>
 <div align=center> 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/77970912/340225629-6a1f420b-ae73-4f66-9cc0-c286b16c285b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240617T080029Z&X-Amz-Expires=300&X-Amz-Signature=8198433eb06481f9d4e85f6501bbc87308d8f4d7f47839178090053b7b87f02c&X-Amz-SignedHeaders=host&actor_id=77970912&key_id=0&repo_id=802364606">
+<img src="https://github.com/kwonyeji500/gongdal-public/assets/77970912/0ac809fa-764d-4387-b9d7-33c8ca0221f1">
 <br>
 </div>
